@@ -363,6 +363,31 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.0307837, y: 3.9323997}
   m_EdgeRadius: 0
+--- !u!1 &1109175192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2044101105050525617, guid: 5250690cf13e18746a05413f515e1424,
+    type: 3}
+  m_PrefabInstance: {fileID: 7354720894526728948}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1109175193
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109175192}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b4cff6b8dcb2b6b49b5a4c68356a4160, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1694905447
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,6 +501,8 @@ MonoBehaviour:
   _enemyPrefab: {fileID: 590658818632573555, guid: f8b6453e786020d459f58efb385d168d,
     type: 3}
   _enemyContainer: {fileID: 133149614}
+  _tripleShotPowerupPrefab: {fileID: 2044101105050525617, guid: 5250690cf13e18746a05413f515e1424,
+    type: 3}
 --- !u!4 &1793471015
 Transform:
   m_ObjectHideFlags: 0

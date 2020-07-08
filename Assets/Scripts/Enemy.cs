@@ -8,13 +8,10 @@ public class Enemy : MonoBehaviour
     private float _speed = 4.0f;
 
 
-    // Start is called before the first frame update
     void Start()
     {
-        //transform.position = new Vector3(0, 6f, 0);
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector3.down * _speed * Time.deltaTime);

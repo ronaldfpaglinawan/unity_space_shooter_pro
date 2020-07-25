@@ -3,7 +3,13 @@ guid: f80b65feff5d14c79bb2fd21e507c051
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _laserPrefab: {fileID: 6963265344128721155, guid: bf58c0378b65dfc46bd8fa0fd2305c42,
+      type: 3}
+  - _tripleShotPrefab: {fileID: 5133400783749762748, guid: d62ce12ea93884a4f8386e8fb4d0a350,
+      type: 3}
+  - _shieldVisualizer: {fileID: 1625765095616256587, guid: f0eda626394c93c4da291d1dc272872d,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
